@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
 import com.alessandrof.workshopmongo.domain.User;
-import com.alessandrof.workshopmongo.repossitory.UserRepository;
+import com.alessandrof.workshopmongo.repository.UserRepository;
 
 
 @Configuration
