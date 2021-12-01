@@ -19,5 +19,5 @@ public class ResourseExceptionHandler {
 		StandardError err = new StandardError(System.currentTimeMillis(), status.value(), "Not found", e.getMessage(), request.getRequestURI());
 		return ResponseEntity.status(status).body(err);
 	}
-
+	
 }
