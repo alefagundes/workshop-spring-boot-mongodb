@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.alessandrof.workshopmongo.domain.User;
 import com.alessandrof.workshopmongo.dto.UserDTO;
 import com.alessandrof.workshopmongo.repository.UserRepository;
+import com.alessandrof.workshopmongo.service.exception.ObjectNotFoundException;
 
 @Service
 public class UserService {

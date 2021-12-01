@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.alessandrof.workshopmongo.service.ObjectNotFoundException;
+import com.alessandrof.workshopmongo.service.exception.ObjectNotFoundException;
 
 @ControllerAdvice
 public class ResourseExceptionHandler {
